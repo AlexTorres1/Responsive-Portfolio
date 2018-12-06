@@ -166,7 +166,7 @@ img{
     background: #e31b6d;
     top: 164px;
     padding: 20.5px;
-    width: 26.3%;
+    width: 28.2%;
     color: white;
     text-align: center;
 }
@@ -176,8 +176,8 @@ img{
     background: #e31b6d;
     top: 164px;
     padding: 20.5px;
-    width: 26.3%;
-    left: 303px;
+    width: 28.2%;
+    left: 305px;
     color: white;
     text-align: center;
 }
@@ -187,7 +187,7 @@ img{
     background: #e31b6d;
     top: 398px;
     padding: 20.5px;
-    width: 26.3%;
+    width: 28.2%;
     color: white;
     text-align: center;
 }
@@ -197,8 +197,8 @@ img{
     background: #e31b6d;
     top: 398px;
     padding: 20.5px;
-    width: 26.3%;
-    left: 303px;
+    width: 28.2%;
+    left: 305px;
     color: white;
     text-align: center;
 }
@@ -208,38 +208,51 @@ img{
     background: #e31b6d;
     top: 626px;
     padding: 20.5px;
-    width: 26.3%;
+    width: 28.2%;
     color: white;
     text-align: center;
 }
 @media (max-width:640px) {
     .h1{
-        font-size: 16px;
+        font-size: 28px;
         text-align: center;
+        margin-left: 0%;
+        display: block;
     }
     .hover1{
-        width: 70.7%;
+        width: 72.9%;
         top: 161px;
         left: -1px;
     }
     .hover2{
-        width: 70.7%;
+        width: 72.9%;
         top: 397px;
         left: -1px;
     }
     .hover3{
-        width: 70.7%;
+        width: 72.9%;
         top: 632px;
         left: -1px;
     }
     .hover4{
-        width: 70.7%;
+        width: 72.9%;
         top: 866px;
         left: -1px;
     }
     .hover5{
-        width: 70.7%;
+        width: 72.9%;
         top: 1096px;
         left: -1px;
+    }
+    nav{
+        background: #1b242f;
+        width: 100%;
+        margin-top: 3px;
+        padding-top: 5px;
+        border-bottom: 3px solid #04c2c9;
+        margin-right: 0px;
+    }
+    nav ul{
+        padding-left: 174px;
     }
 }
