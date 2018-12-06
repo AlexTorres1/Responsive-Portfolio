@@ -161,57 +161,23 @@ img{
     position: relative;
 }
 
+.img-con{
+    display: inline-block;
+    position: relative;
+}
+
 .hover1{
     position: absolute;
     background: #e31b6d;
     top: 164px;
-    padding: 20.5px;
-    width: 28.2%;
+    width: 100%;
     color: white;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 
-.hover2{
-    position: absolute;
-    background: #e31b6d;
-    top: 164px;
-    padding: 20.5px;
-    width: 28.2%;
-    left: 305px;
-    color: white;
-    text-align: center;
-}
-
-.hover3{
-    position: absolute;
-    background: #e31b6d;
-    top: 398px;
-    padding: 20.5px;
-    width: 28.2%;
-    color: white;
-    text-align: center;
-}
-
-.hover4{
-    position: absolute;
-    background: #e31b6d;
-    top: 398px;
-    padding: 20.5px;
-    width: 28.2%;
-    left: 305px;
-    color: white;
-    text-align: center;
-}
-
-.hover5{
-    position: absolute;
-    background: #e31b6d;
-    top: 626px;
-    padding: 20.5px;
-    width: 28.2%;
-    color: white;
-    text-align: center;
-}
 @media (max-width:640px) {
     .h1{
         font-size: 25px;
@@ -219,31 +185,6 @@ img{
         margin-left: 0%;
         display: block;
         padding: 12px;
-    }
-    .hover1{
-        width: 72.9%;
-        top: 161px;
-        left: -1px;
-    }
-    .hover2{
-        width: 72.9%;
-        top: 397px;
-        left: -1px;
-    }
-    .hover3{
-        width: 72.9%;
-        top: 632px;
-        left: -1px;
-    }
-    .hover4{
-        width: 72.9%;
-        top: 866px;
-        left: -1px;
-    }
-    .hover5{
-        width: 72.9%;
-        top: 1096px;
-        left: -1px;
     }
     nav{
         background: #1b242f;
@@ -262,4 +203,9 @@ img{
     nav li{
         display: inline-block;
     }
+}
+
+@media (max-width:768px){
+
+
 }
