@@ -166,7 +166,7 @@ img{
     background: #e31b6d;
     top: 164px;
     padding: 20.5px;
-    width: 29.5%;
+    width: 26.3%;
     color: white;
     text-align: center;
 }
@@ -176,7 +176,7 @@ img{
     background: #e31b6d;
     top: 164px;
     padding: 20.5px;
-    width: 29.5%;
+    width: 26.3%;
     left: 303px;
     color: white;
     text-align: center;
@@ -187,7 +187,7 @@ img{
     background: #e31b6d;
     top: 398px;
     padding: 20.5px;
-    width: 29.5%;
+    width: 26.3%;
     color: white;
     text-align: center;
 }
@@ -197,7 +197,7 @@ img{
     background: #e31b6d;
     top: 398px;
     padding: 20.5px;
-    width: 29.5%;
+    width: 26.3%;
     left: 303px;
     color: white;
     text-align: center;
@@ -208,12 +208,38 @@ img{
     background: #e31b6d;
     top: 626px;
     padding: 20.5px;
-    width: 29.5%;
+    width: 26.3%;
     color: white;
     text-align: center;
 }
-@media (max-width:414px){
+@media (max-width:640px) {
     .h1{
         font-size: 16px;
+        text-align: center;
+    }
+    .hover1{
+        width: 70.7%;
+        top: 161px;
+        left: -1px;
+    }
+    .hover2{
+        width: 70.7%;
+        top: 397px;
+        left: -1px;
+    }
+    .hover3{
+        width: 70.7%;
+        top: 632px;
+        left: -1px;
+    }
+    .hover4{
+        width: 70.7%;
+        top: 866px;
+        left: -1px;
+    }
+    .hover5{
+        width: 70.7%;
+        top: 1096px;
+        left: -1px;
     }
 }
