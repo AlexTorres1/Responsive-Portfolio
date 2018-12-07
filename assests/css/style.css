@@ -202,6 +202,14 @@ img{
     nav li{
         display: inline-block;
     }
+    .pic{
+        width: 90%;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        float: none
+    }
 }
 
 @media (max-width: 757px){
@@ -232,13 +240,42 @@ img{
 
 }
 
-@media (max-width: 480px){
-    .pic{
-        width: 90%;
-        height: auto;
-        margin-right: auto;
-        margin-left: auto;
-        display: block;
-        float: none
+@media (max-width: 980px){
+    .img-con{
+        max-width: 34%;
+        margin: 5px;
+    }
+    img{
+        width: 100%;
+    }
+    .hover1{
+        top: 84px;
+    }
+
+@media (max-width: 768px){
+    .img-con{
+        max-width: 45%;
+        margin: 5px;
+    }
+    img{
+        width: 100%;
+    }
+    .hover1{
+        top: 104px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
+
+@media (max-width: 480px){
+    .hover1{
+        top: 104px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .img-con{
+        max-width: 100%;
+        margin: 5px;
+    }
+}
+
