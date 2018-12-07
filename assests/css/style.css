@@ -168,12 +168,12 @@ img{
 .hover1{
     position: absolute;
     background: #e31b6d;
-    top: 164px;
+    top: 175px;
     width: 100%;
     color: white;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 
 }
 
@@ -249,7 +249,9 @@ img{
         width: 100%;
     }
     .hover1{
-        top: 84px;
+        top: 106px;
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
 
 @media (max-width: 768px){
@@ -262,19 +264,19 @@ img{
     }
     .hover1{
         top: 104px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
 }
 
 @media (max-width: 480px){
     .hover1{
         top: 104px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
     .img-con{
-        max-width: 100%;
+        max-width: 86%;
         margin: 5px;
     }
 }
